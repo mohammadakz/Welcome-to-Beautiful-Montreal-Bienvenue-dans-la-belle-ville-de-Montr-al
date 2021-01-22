@@ -1,3 +1,90 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    display: grid;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color:cadetblue;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1, h2,h3,p{
+    margin: 0;
+    padding: 10px;
+}
+
+header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+main{
+    padding-top: 35px;
+}
+
+/* landscape */
+
+.landscape-photos{
+    display: flex;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto auto;
+}
+
+.portrait-photos{
+    display: flex;
+    padding-top: 35px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 img{
-    width: 100%;
+    padding-top: 20px;
+    display: grid;
+    width: 550px;
+    height: 350px;
+    transition: transform .2s; /* Animation */
+
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+footer ul li{
+    padding-top: 20px;
+    display: inline;
 }
