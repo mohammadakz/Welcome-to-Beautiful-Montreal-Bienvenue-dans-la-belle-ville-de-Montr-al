@@ -126,8 +126,8 @@ footer ul li{
         padding-top: 20px;
         padding-bottom: 20px;
         display: grid;
-        width: 450px;
-        height: 300px;
+        width: 350px;
+        height: 250px;
         transition: transform .2s; /* Animation */
     
     }
